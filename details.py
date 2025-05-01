@@ -2,10 +2,10 @@ import os
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", 23664819))
-API_HASH = getenv("API_HASH", "3853f97c662d5d08cee5f0d07361361e")
-BOT_TOKEN = getenv("BOT_TOKEN", "7668997178:AAF4ulorEaLSEkHGppTHvekl27IOZnbBDNY")
-OWNER_ID = int(getenv("OWNER_ID", "8004315740"))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8004315740").split()))
-MONGO_URL = getenv("MONGO_DB", "mongodb+srv://daxxop:daxxop@daxxop.dg3umlc.mongodb.net/?retryWrites=true&w=majority")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002674234342"))
+API_ID = int(getenv("API_ID", 27900743))
+API_HASH = getenv("API_HASH", "ebb06ea8d41420e60b29140dcee902fc")
+BOT_TOKEN = getenv("BOT_TOKEN", "8003649544:AAGoiThVN8KLJyKGsGf1BcfTsjDTrSmjFR8")
+OWNER_ID = int(getenv("OWNER_ID", "7804396225"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7804396225").split()))
+MONGO_URL = getenv("MONGO_DB", "mongodb+srv://rsrasasingh:FS2G9YbI28KbPHLC@cluster0.yljr3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002566364060"))
